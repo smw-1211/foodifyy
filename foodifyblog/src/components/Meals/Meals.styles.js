@@ -151,6 +151,6 @@ align-items: center;
 text-decoration: none;
 
 @media only screen and (max-width: 1000px) {
-    justify-content: right;
+    justify-content: center;
 }
 `;
