@@ -36,3 +36,20 @@ font-weight: 900;
 letter-spacing: .5rem;
 line-height: 1.3;
 `;
+
+export const HeroTitleText = styled.span`
+display: block;
+`;
+
+export const HeroSubTitle = styled.h2`
+font-size: clamp(2rem, 3vw, 4rem);
+font-weight: 300;
+letter-spacing: 1rem;
+padding-top: 1rem;
+`;
+
+export const HeroText = styled.h3`
+font-size: clamp(2rem, 2.5vw, 3rem);
+font-weight: 400;
+padding: 2.5rem 2rem;
+`;
