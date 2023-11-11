@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 import ImgBg from '../../images/hero-bg.png';
 
 export const HeroContainer = styled.div`
@@ -30,6 +31,24 @@ color: #FFFEFE;
 }
 `;
 
+export const HeroContentText = styled.div`
+width: 50%;
+padding-top: 5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+@media only screen and (max-width:600px) {
+    width: 80%;
+}
+@media only screen and (max-width:375px) {
+    position: absolute;
+    align-items: flex-start;
+}
+`;
+
 export const HeroTitle = styled.h1`
 font-size: clamp(1rem, 10vw, 5rem);
 font-weight: 900;
@@ -52,4 +71,14 @@ export const HeroText = styled.h3`
 font-size: clamp(2rem, 2.5vw, 3rem);
 font-weight: 400;
 padding: 2.5rem 2rem;
+
+@media only screen and (max-width:375px) {
+    padding: 1.5rem 0;
+}
+`;
+
+export const HeroBtn = styled(Link)`
+text-decoration: none;
+outline: none;
+border: none;
 `;
