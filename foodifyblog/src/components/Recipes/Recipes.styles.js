@@ -30,3 +30,22 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 `;
+
+export const RecipeTabContainer = styled.div`
+display: flex;
+justify-content:center;
+align-items:center;                                                                                                     
+@media only screen and (max-width:700px){
+    display: none;
+}                                                                            
+`;
+
+export const RecipeBtn = styled(Link)`
+&:not(:last-child){
+    margin-right: 3rem;
+}
+@media only screen and (max-width: 700px){
+    display: none;
+ }
+
+`;
