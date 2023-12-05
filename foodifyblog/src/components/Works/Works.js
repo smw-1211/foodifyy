@@ -3,7 +3,14 @@ import {
     WorksContent,
     WorksTitle,
     WorksCardContent,
-} from './works.styles';
+    WorksCard,
+    WorksCardText,
+    WorksCardTitle,
+    WorksIcon1,
+    WorksIcon2,
+    WorksIcon3,
+    WorksIconContainer
+} from './Works.styles';
 const Works = () => {
     return (
         <div>
