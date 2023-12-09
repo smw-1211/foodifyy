@@ -1,9 +1,12 @@
-import {Welcome} from '../../components';
+import {Works, Welcome, Recipes, Meals} from '../../components';
 
 function Home() {
     return (
         <div>
+            <Works/>
             <Welcome/>
+            <Recipes/>
+            <Meals/>
         </div>
     )
 }
