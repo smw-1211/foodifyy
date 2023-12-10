@@ -21,7 +21,7 @@ function Footer() {
             <FooterSection>
                 <FooterContainer>
                     <FooterNewsletter>
-                        <FooterNewsletterTitle>Join our listing for exclusive discounts and new recipes</FooterNewsletterTitle>
+                        <FooterNewsletterTitle>Join our listing for execlusive discounts and new recipes</FooterNewsletterTitle>
                         <FooterNewsletterText>We create new recipes every week and cooking tips</FooterNewsletterText>
                         <FooterNewsletterForm>
                             <FooterLabel htmlFor="email">Email address</FooterLabel>
@@ -57,13 +57,15 @@ function Footer() {
                             </FooterLinks>
                             <FooterLinks>
                                 <FooterLinkTitle>Contact</FooterLinkTitle>
+                                <FooterLink to='/'>Instagram</FooterLink>
                                 <FooterLink to='/'>Facebook</FooterLink>
+                                <FooterLink to='/'>Youtube</FooterLink>
                                 <FooterLink to='/'>Linkedin</FooterLink>
                             </FooterLinks>
                             
                         </FooterLinksWrapper>
                     </FooterLinkContainer>
-                    <FooterCopyRight to='https://github.com/smw-1211'> &copy; Designed and coded with 💛 by Sam :)</FooterCopyRight>
+                    <FooterCopyRight to='https://github.com/smw-1211'> &copy; Copyright 2023, Designed and coded with 💛 by smw-1211</FooterCopyRight>
                 </FooterContainer>
             </FooterSection>
             
