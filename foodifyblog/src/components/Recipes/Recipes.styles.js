@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {HiUsers} from 'react-icons/hi';
 import {Link} from 'react-router-dom';
-import {Container} from '../../Globalstyles';
+import {Container} from '../../GlobalStyles.js';
 
 export const RecipeWrapper = styled.section`
 display: flex;

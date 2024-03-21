@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {Container} from '../../Globalstyles';
+import {Container} from '../../GlobalStyles.js';
 import {Link} from 'react-router-dom';
 
 export const FooterSection = styled.section`
