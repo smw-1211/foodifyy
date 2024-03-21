@@ -1,4 +1,4 @@
-import {Button} from '../../Globalstyles';
+import {Button} from '../../GlobalStyles.js';
 import ChickenImg from '../../images/Big-chicken.svg';
 import {
     MealsContainer,

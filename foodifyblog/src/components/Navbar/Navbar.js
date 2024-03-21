@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { IconContext } from "react-icons";
 import { BiMenu, BiX } from "react-icons/bi";
-import {Button} from '../../Globalstyles';
+import {Button} from '../../GlobalStyles.js';
 import 
 {
     Nav,

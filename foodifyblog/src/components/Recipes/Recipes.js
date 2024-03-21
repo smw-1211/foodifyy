@@ -1,4 +1,4 @@
-import {OutlineButton} from '../../Globalstyles';
+import {OutlineButton} from '../../GlobalStyles.js';
 import SalmonImg from '../../images/salmon.png';
 import ChickenImg from '../../images/Chicken.svg';
 import PizzaImg from '../../images/Italian-pizza.svg';

@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Recipe from './pages/Recipe/Recipe';
 import Order from './pages/Order/Order';
-import GlobalStyles from './Globalstyles';
+import GlobalStyles from '../src/GlobalStyles.js';
 function App() {
   return (
     <Router>
