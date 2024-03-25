@@ -1,5 +1,5 @@
 import Navbar from '../Navbar/Navbar';
-import {Button} from '../../Globalstyles';
+import {Button} from '../../GlobalStyles.js';
 import {
     HeroContainer,
     HeroContent,
